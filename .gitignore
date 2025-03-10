@@ -1,0 +1,20 @@
+# Ignore IntelliJ files
+.idea/
+*.iml
+
+# Ignore build and target folders
+target/
+out/
+
+# Ignore Maven dependencies (they can be re-downloaded)
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+dependency-reduced-pom.xml
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
